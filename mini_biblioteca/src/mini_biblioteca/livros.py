@@ -6,6 +6,3 @@ class Livro:
         self.codigo = codigo
         self.disponivel = disponivel
 
-    def criar_livro(self, titulo, autor, codigo):
-        livro = Livro(titulo, autor, codigo)    
-        return livro

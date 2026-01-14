@@ -4,6 +4,3 @@ class Usuario:
         self.nome = nome
         self.id_usuario = id_usuario
 
-    def criar_usuario(self, nome, id_usuario):
-        usuario = Usuario(nome, id_usuario)
-        return usuario
